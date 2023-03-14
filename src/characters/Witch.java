@@ -19,6 +19,7 @@ public class Witch {
 		output("My potions can cause damage from " + potionEffectMin + " up to " + potionEffectMax);
 	}
 
+
 	
 	public void output(String text) {
 		System.out.println(characterOutput() + "<<" + text + ">>");
@@ -29,7 +30,12 @@ public class Witch {
 		return "Witch " + name + " : ";
 	}
 	
-	
+	public static void main(String[] args) {
+		
+		Witch snape= new Witch ("Snape",2,6,18,29);
+		System.out.println(snape);
+
+	}
 	
 }
 
