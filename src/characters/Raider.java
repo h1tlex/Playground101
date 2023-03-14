@@ -47,7 +47,9 @@ public class Raider {
 
 
 	public static void main(String[] args) {
-		
+		Raider asterix;
+		asterix= new Raider ("Asterix",8,2);
+		System.out.println(asterix);
 		
 	}
 	
